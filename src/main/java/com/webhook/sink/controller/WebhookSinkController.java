@@ -30,8 +30,9 @@ public class WebhookSinkController {
         }
 
         WebhookSubmitResponse response = new WebhookSubmitResponse();
-        response.setRequestStatus("SUCCESS");
         response.setWebhookId(UUID.randomUUID().toString());
+        response.setRequestSubmitStatus("SUCCESS");
+        response.setRequestBody(requestJsonBody);
         return response;
     }
 }
