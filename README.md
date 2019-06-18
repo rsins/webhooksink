@@ -1,2 +1,3 @@
 # webhooksink
-Target Server for a Webhook.
+Target Server for a Webhook using Spring Boot.
+
